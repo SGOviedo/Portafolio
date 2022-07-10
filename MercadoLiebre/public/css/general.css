@@ -1,0 +1,35 @@
+:root{
+        --colorAmarillo: #EAC926;
+        --colorAzul: #03264C;
+        --colorCeleste: #1259c3;
+        --colorGrisoscuro: #666;
+        --colorGrisclaro: #ebebeb;
+        --colorVerde: #39b54a;
+        
+        --textoSizeCuerposdetexto: 12px;
+        --textoSizeTitulares: 24px;
+        --textoSizePrecios: 18px;
+        --textoSizeDescuentos: 16px;
+        --textoSizeDescripciones: 16px;
+        --tipografiaGeneral: 'Roboto';
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: var(--tipografiaGeneral);
+    color: black;
+}
+li{
+    list-style: none;
+}
+ul, ol{
+    padding: 0;
+    text-decoration: none; 
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: auto;
+    height: 200px;
+}

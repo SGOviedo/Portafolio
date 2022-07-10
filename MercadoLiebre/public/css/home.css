@@ -1,0 +1,76 @@
+@import '.general.css';
+.home__header{
+    background-color: var(--colorAmarillo);
+    font-size: var(--textoSizeCuerposdetexto);
+}
+.home__header div img{
+    padding: 20px 100px 20px 20px;
+    width: auto;
+    height: 100px;
+}
+.home__header__nav--section--barrabusqueda{
+    padding: 0 0 20px 20px;
+}
+.home__header__nav--section--parrafo1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.home__header__nav--section--opciones{
+    padding: 0 20px 20px 0;
+}
+.home__header__nav--section--burger{
+    text-align: center;
+}
+.home__header__nav--section--burger div button{
+    padding: 8px;
+    text-align: center;
+    font-size: 30px;
+    background-color: var(--colorCeleste);
+    border-radius: 8px;
+}
+.home__header__nav--section--burger div i{
+    color: white;
+}
+
+.home__main section{
+    background-color: var(--colorGrisoscuro);
+    padding: 15px 30px;
+}
+.home__main section h2{
+    text-align: center;
+}
+.home__main__section--article{
+    background-color: var(--colorGrisclaro);
+    text-align: center;
+}
+.home__main__section--article p{
+    text-align: left;
+}
+.home__main__section--article h4{
+    text-align: left;
+}
+.home__footer{
+    padding: 10px 5px;
+    background-color: var(--colorGrisclaro);
+    text-align: center;
+}
+.home__footer article{
+    background-color: white;
+    padding: 20px;
+}
+.home__footer article h4{
+    font-size: var(--textoSizeDescripciones);
+}
+.home__footer article p{
+    font-size: var(--textoSizeCuerposdetexto);
+}
+.home__footer article i{
+    padding: 10px;
+    color: var(--colorCeleste);
+    font-size: 30px;
+}
+.home__footer article h6{
+    font-size: var(--textoSizeCuerposdetexto);
+    text-align: left;
+    color: grey;
+}
