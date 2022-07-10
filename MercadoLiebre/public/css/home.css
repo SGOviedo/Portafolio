@@ -1,9 +1,13 @@
 @import '.general.css';
+img{
+    width: auto;
+    height: 200px;
+}
 .home__header{
     background-color: var(--colorAmarillo);
     font-size: var(--textoSizeCuerposdetexto);
 }
-.home__header div img{
+.home__header figure img{
     padding: 20px 100px 20px 20px;
     width: auto;
     height: 100px;
@@ -38,6 +42,8 @@
 }
 .home__main section h2{
     text-align: center;
+    font-size: var(--textoSizeTitulares);
+    padding: 0 20px 20px 20px;
 }
 .home__main__section--article{
     background-color: var(--colorGrisclaro);
@@ -46,11 +52,18 @@
 .home__main__section--article p{
     text-align: left;
 }
+.precio{
+    font-size: var(--textoSizePrecios);
+}
+.descuento{
+    font-size: var(--textoSizeDescuentos);
+}
 .home__main__section--article h4{
     text-align: left;
+    font-size: var(--textoSizeTitulares);
 }
 .home__footer{
-    padding: 10px 5px;
+    padding: 15px 10px;
     background-color: var(--colorGrisclaro);
     text-align: center;
 }
@@ -59,10 +72,10 @@
     padding: 20px;
 }
 .home__footer article h4{
-    font-size: var(--textoSizeDescripciones);
+    font-size: var(--textoSizeTitulares);
 }
 .home__footer article p{
-    font-size: var(--textoSizeCuerposdetexto);
+    font-size: var(--textoSizeDescripciones);
 }
 .home__footer article i{
     padding: 10px;
@@ -70,7 +83,6 @@
     font-size: 30px;
 }
 .home__footer article h6{
-    font-size: var(--textoSizeCuerposdetexto);
+    font-size: var(--textoSizeDescripciones);
     text-align: left;
-    color: grey;
 }
