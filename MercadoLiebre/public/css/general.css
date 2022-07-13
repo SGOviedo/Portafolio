@@ -17,7 +17,6 @@
     box-sizing: border-box;
     margin: 0;
     font-size: var(--tipografiaGeneral);
-    color: black;
 }
 li{
     list-style: none;
